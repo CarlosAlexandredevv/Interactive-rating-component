@@ -153,3 +153,50 @@ body{
     opacity: 1;
     visibility: visible;
 }
+
+@media only screen and(max-width: 600px){
+    body{
+        padding: 0 24px;
+    }
+
+    .box{
+        width: 80%;
+        padding: 22px;
+    }
+
+    .star{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .box h3{
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .text{
+        margin-bottom: 20px;
+    }
+
+    .buttons button{
+        width: 40px;
+        height: 40px;
+    }
+
+   #btn{
+        height: 45px;
+        margin-top: 20px;
+    }
+
+    .thanks img{
+        height: 95px;
+    }
+    .thanks{
+        margin-bottom: 20px;
+    }
+
+    .card .thanks .text{
+        padding: 0 24px;
+    }
+}
